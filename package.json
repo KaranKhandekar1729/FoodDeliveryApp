@@ -1,0 +1,19 @@
+{
+  "name": "reactprojectswiggy",
+  "version": "1.0.0",
+  "description": "Food Delivery App",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "build index.html",
+    "test": "jest"
+  },
+  "author": "Karan Khandekar",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
