@@ -12,9 +12,11 @@ const RestaurantCard = (props) => {
       deliveryTime
     } = resData?.info;
 
+    console.log(cloudinaryImageId)
+
     return (
         <div className="res-card">
-            <img className="res-image" src={CDN_URL+resData.info.cloudinaryImageId}></img>
+            <img className="res-image" src={CDN_URL+cloudinaryImageId}></img>
             <h3>{name}</h3>
             <h4>{cuisines.join(", ")}</h4>
             <h4>{avgRating}</h4>
