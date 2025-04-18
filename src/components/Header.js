@@ -1,4 +1,9 @@
+import { useSelector } from 'react-redux';
+
 const Header = () => {
+
+    const cartItems = useSelector((store) => store.cart.items);
+
     return (
         <div className="header">
             Hello World
@@ -10,7 +15,7 @@ const Header = () => {
                     <li>Home</li>
                     <li>About Us</li>
                     <li>Contact Us</li>
-                    <li>Cart</li>
+                    <li>Cart ({cartItems.length}) items</li>
                 </ul>
             </div>
         </div>

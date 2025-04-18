@@ -45,3 +45,16 @@
     flex-wrap: wrap;
     
 }
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card {
+    width: 200px;
+    height: 400px;
+    background-color: gray;
+    padding: 5px;
+    margin: 10px;
+}
